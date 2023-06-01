@@ -19,6 +19,7 @@ $highlight-color: #007acc;
         width: min(var(--content-width), 100% - var(--inline-margin));
         list-style: none;
         display: flex;
+        justify-content: flex-end;
 
         li {
 
