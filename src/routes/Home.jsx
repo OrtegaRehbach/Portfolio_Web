@@ -7,6 +7,7 @@ import avatar from "../assets/img/profile-pic.jpg";
 import page1 from "../assets/img/proyecto2-screenshot.png";
 import page2 from "../assets/img/lab9-screenshot.png";
 import page3 from "../assets/img/lab8-screenshot.png";
+import page4 from "../assets/img/proyecto1-screenshot.png";
 
 export function Home() {
 
@@ -51,7 +52,7 @@ export function Home() {
                     </p>
                 </div>
             </div>
-
+            
             <section className="section bg-1">
                 <div className="content-1">
                     <img className="avatar" src={avatar} />
@@ -109,6 +110,20 @@ export function Home() {
                             </p>
                             <div className="page-link">
                                 <a href="https://webserver-63bcf.web.app/">Ver en navegador</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div className="page-showcase reversed">
+                        <img src={page4} className="page-img" />
+                        <div className="page-description">
+                            <h3>Proyecto 1 - Web</h3>
+                            <p>
+                                Este proyecto consistió en recrear una página web existente desde cero utilizando un framework 
+                                de desarrollo web, en este caso NextJS. Este proyecto es una recreación de la página de inicio de <a className="basic-link" href="https://www.yelp.com/">Yelp</a>.
+                            </p>
+                            <div className="page-link">
+                                <a href="https://proyecto1-web-be75e.web.app/">Ver en navegador</a>
                             </div>
                         </div>
                     </div>
