@@ -40,12 +40,14 @@ Para desplegar el proyecto primero es necesario construir la 'build' de producci
 
 El resultado se guardará en la carpeta `dist`. 
 
+
 ## Tecnologías
-- Vite
-- React
-- SASS
-- NodeJS
-- Firebase
+- **Vite:** Para generar la estructura y configuración inicial del proyecto.
+- **React:** Librería para trabajar con componentes.
+- **SASS:** Para agilizar la creación de estilos y reglas en CSS.
+- **NodeJS:** Para instalar paquetes y librerías necesarias para elaborar el proyecto.
+- **Firebase:** Para hostear el sitio terminado.
+
 
 
 ## Link del sitio
