@@ -30,6 +30,15 @@ Iniciar el servidor de desarrollo
   npm run dev
 ```
 
+## Construir el proyecto
+
+Para desplegar el proyecto primero es necesario construir la 'build' de producción con la siguiente instrucción
+
+```bash
+  npm run build
+```
+
+El resultado se guardará en la carpeta `dist`. 
 
 ## Tecnologías
 - Vite
