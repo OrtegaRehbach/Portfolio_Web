@@ -229,15 +229,15 @@
     }
 
     &.from-left {
-        transform: translateX(-100%);
+        transform: translateX(-50%);
     }
 
     &.from-right {
         transform: translateX(100%);
     }
+}
 
-    &.appear {
-        opacity: 1;
-        transform: translate(0%);
-    }
+.appear {
+    opacity: 1;
+    transform: translate(0%);
 }
